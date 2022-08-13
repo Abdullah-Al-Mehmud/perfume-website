@@ -1,0 +1,987 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Pacifico", cursive;
+}
+
+.nav {
+  width: 100%;
+  height: 60px;
+
+  background: transparent;
+  position: relative;
+  position: absolute;
+  position: fixed;
+  z-index: 1;
+}
+.rgba1 {
+  width: 100%;
+  height: 60px;
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+}
+
+.nav h2 {
+  font-size: 30px;
+  margin-left: 50px;
+  margin-top: 8px;
+
+  position: absolute;
+  background: linear-gradient(to right, #3498db, #ffffff);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+.nav ul {
+  margin-left: 500px;
+  margin-left: 600px;
+}
+.nav ul li {
+  float: left;
+  margin: 20px;
+  list-style: none;
+}
+.nav ul li a {
+  filter: brightness(1);
+  color: white;
+  text-decoration: none;
+  margin: 20px;
+  font-weight: bold;
+  transition: 0.5s;
+}
+.nav ul li a:hover {
+  color: #1e90ff;
+  font-size: 20px;
+}
+.content1 {
+  width: 100%;
+  height: 500px;
+  background: url(img/perfume2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  text-align: center;
+}
+.rgba2 {
+  width: 100%;
+  height: 500px;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.d1 {
+  padding-top: 100px;
+  color: white;
+  padding-left: 100px;
+  margin-left: 300px;
+  float: left;
+}
+.d1 h2 {
+  font-size: 38px;
+  margin-bottom: 15px;
+
+  color: #ecf0f1;
+}
+#perfume {
+  font-size: 40px;
+  background: linear-gradient(to right, #1e90ff, #ffffff);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+.d1 p {
+  font-size: 14px;
+  font-weight: bold;
+  color: #f1f2f6;
+  margin-bottom: 20px;
+}
+.d1 button {
+  margin-top: 10px;
+  margin: 10px;
+  width: 130px;
+  height: 35px;
+
+  font-weight: bold;
+  font-size: 16px;
+  background: transparent;
+  border: 2px solid transparent;
+  border-image: linear-gradient(45deg, #027cf7, #ffffff);
+  border-image-slice: 1;
+  transition: 1s;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+}
+
+.d1 button a {
+  color: white;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+}
+.d1 button:hover {
+  transform: scale(1.1);
+
+  border: 2px solid transparent;
+  border-image: linear-gradient(45deg, #ffffff, #027cf7);
+  border-image-slice: 1;
+  background: transparent;
+}
+.d1 button:hover a {
+  background: linear-gradient(to right, #1e90ff, #ffffff);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
+.content2 {
+  width: 100%;
+  height: 500px;
+  background: #2d3436;
+}
+
+.d2 {
+  margin-top: 60px;
+  margin-left: 100px;
+  float: left;
+}
+.d2 h2 {
+  font-size: 38px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  color: white;
+}
+.d2 p {
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 30px;
+}
+.d2 button {
+  margin-left: 8px;
+  margin-top: 20px;
+  width: 130px;
+  height: 30px;
+
+  border: 2px solid transparent;
+  border-image: linear-gradient(45deg, #027cf7, #ffffff);
+  border-image-slice: 1;
+  background: transparent;
+  color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: 1s;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.d2 button:hover {
+  transform: scale(1.1);
+
+  border: 2px solid transparent;
+  border-image: linear-gradient(45deg, #ffffff, #027cf7);
+  border-image-slice: 1;
+  background: transparent;
+}
+.d2 button:hover a {
+  background: linear-gradient(to right, #1e90ff, #ffffff);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+.d2 {
+  float: left;
+}
+.d3 {
+  float: left;
+}
+.d3 p {
+  font-size: 16px;
+  font-family: "Edu TAS Beginner", cursive;
+  color: gray;
+}
+
+.d3 img {
+  width: 350px;
+  height: 350px;
+  margin-left: 120px;
+  margin-top: 90px;
+}
+.content3 {
+  width: 100%;
+  height: 560px;
+  background: #2d3436;
+}
+.d4 {
+  float: left;
+}
+.d4 p {
+  font-size: 16px;
+  font-family: "Edu TAS Beginner", cursive;
+  color: gray;
+}
+
+.d4 img {
+  width: 350px;
+  height: 350px;
+  margin-left: 100px;
+  margin-top: 90px;
+}
+.d5 {
+  margin-top: 60px;
+  margin-left: 120px;
+  float: left;
+}
+.d5 h2 {
+  font-size: 38px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  color: white;
+}
+.d5 p {
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 20px;
+}
+.d5 button {
+  margin-left: 8px;
+  margin-top: 20px;
+  width: 130px;
+  height: 30px;
+
+  border: 2px solid transparent;
+  border-image: linear-gradient(45deg, #027cf7, #ffffff);
+  border-image-slice: 1;
+  background: transparent;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: 1s;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: white;
+}
+.d5 button:hover {
+  transform: scale(1.1);
+
+  border: 2px solid transparent;
+  border-image: linear-gradient(45deg, #ffffff, #027cf7);
+  border-image-slice: 1;
+  background: transparent;
+}
+.d5 button:hover a {
+  background: linear-gradient(to right, #1e90ff, #ffffff);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+.d5 {
+  float: left;
+}
+
+.content5 {
+  width: 100%;
+  height: 300px;
+  background: url(img/design1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.rgba3 {
+  width: 100%;
+  height: 300px;
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.flex {
+  width: 100%;
+  height: 350px;
+
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.flex div {
+  background: transparent;
+  color: black;
+  margin: 35px;
+  width: 50px;
+  height: 200px;
+  min-width: 210px;
+
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+  transition: 1s;
+  margin-top: 40px;
+  border: 2px solid transparent;
+  border-image: linear-gradient(45deg, #1e90ff, #ffffff);
+  border-image-slice: 1;
+}
+.flex div h3 {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  background: linear-gradient(to right, #1e90ff, #ffffff);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+.flex div p {
+  color: gray;
+  font-size: 14px;
+  color: white;
+}
+
+.flex div:hover {
+  transform: translateY(-12px);
+  background: transparent;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.icn {
+  font-size: 30px;
+  background: linear-gradient(to right, #1e90ff, #ffffff);
+  color: transparent;
+  -webkit-background-clip: text;
+  margin-bottom: 20px;
+}
+
+.content6 {
+  width: 100%;
+  height: 550px;
+  background: #2d3436;
+}
+.d6 {
+  float: left;
+  margin-left: 100px;
+}
+.grid {
+  margin-top: 110px;
+  width: 350px;
+  height: 350px;
+  background: transparent;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 5px;
+}
+.grid div:nth-child(1) {
+  background: url(img/perfume4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  border: 2px solid transparent;
+  border-image: linear-gradient(45deg, #1e90ff, #ffffff);
+  border-image-slice: 1;
+}
+.grid div:nth-child(2) {
+  background: url(img/perfume5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: 2px solid transparent;
+  border-image: linear-gradient(45deg, #1e90ff, #ffffff);
+  border-image-slice: 1;
+}
+.grid div:nth-child(3) {
+  background: url(img/perfume6.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: 2px solid transparent;
+  border-image: linear-gradient(45deg, #1e90ff, #ffffff);
+  border-image-slice: 1;
+}
+.grid div:nth-child(4) {
+  background: url(img/perfume8.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: 2px solid transparent;
+  border-image: linear-gradient(45deg, #1e90ff, #ffffff);
+  border-image-slice: 1;
+}
+
+.d7 {
+  margin-top: 60px;
+  margin-left: 130px;
+  float: left;
+}
+.d7 h2 {
+  font-size: 38px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  color: white;
+}
+.d7 p {
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 20px;
+}
+.d7 button {
+  margin-left: 8px;
+  margin-top: 20px;
+  width: 130px;
+  height: 30px;
+
+  border: 2px solid transparent;
+  border-image: linear-gradient(45deg, #027cf7, #ffffff);
+  border-image-slice: 1;
+  background: transparent;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: 1s;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: white;
+}
+.d7 button:hover {
+  transform: scale(1.1);
+
+  border: 2px solid transparent;
+  border-image: linear-gradient(45deg, #ffffff, #027cf7);
+  border-image-slice: 1;
+  background: transparent;
+}
+.d7 button:hover a {
+  background: linear-gradient(to right, #1e90ff, #ffffff);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+.d7 {
+  float: left;
+}
+
+.content7 {
+  width: 100%;
+  height: 630px;
+  background: #2d3436;
+}
+
+.d8 {
+  margin-top: 60px;
+  margin-left: 100px;
+  float: left;
+}
+.d8 h2 {
+  font-size: 38px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  color: white;
+}
+.d8 p {
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 20px;
+}
+.d8 button {
+  margin-left: 8px;
+  margin-top: 20px;
+  width: 130px;
+  height: 30px;
+
+  border: 2px solid transparent;
+  border-image: linear-gradient(45deg, #027cf7, #ffffff);
+  border-image-slice: 1;
+  background: transparent;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: 1s;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: white;
+}
+.d8 button:hover {
+  transform: scale(1.1);
+
+  border: 2px solid transparent;
+  border-image: linear-gradient(45deg, #ffffff, #027cf7);
+  border-image-slice: 1;
+  background: transparent;
+}
+.d8 button:hover a {
+  background: linear-gradient(to right, #1e90ff, #ffffff);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+.d9 {
+  float: left;
+}
+
+.grid2 {
+  margin-top: 50px;
+  width: 350px;
+  height: 350px;
+  background: transparent;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 5px;
+  margin-left: 150px;
+}
+.grid2 div:nth-child(1) {
+  background: url(img/perfume9.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  border: 2px solid transparent;
+  border-image: linear-gradient(45deg, #1e90ff, #ffffff);
+  border-image-slice: 1;
+}
+.grid2 div:nth-child(2) {
+  background: url(img/perfume10.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: 2px solid transparent;
+  border-image: linear-gradient(45deg, #1e90ff, #ffffff);
+  border-image-slice: 1;
+}
+.grid2 div:nth-child(3) {
+  background: url(img/perfume11.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: 2px solid transparent;
+  border-image: linear-gradient(45deg, #1e90ff, #ffffff);
+  border-image-slice: 1;
+}
+.grid2 div:nth-child(4) {
+  background: url(img/perfume12.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: 2px solid transparent;
+  border-image: linear-gradient(45deg, #1e90ff, #ffffff);
+  border-image-slice: 1;
+}
+
+.content8 {
+  width: 100%;
+  height: 650px;
+  background: #2d3436;
+}
+
+.d10 {
+  float: left;
+}
+.d10 {
+  float: left;
+}
+.d10 p {
+  font-size: 16px;
+  font-family: "Edu TAS Beginner", cursive;
+  color: gray;
+}
+
+.d10 img {
+  width: 350px;
+  height: 350px;
+  margin-left: 100px;
+  margin-top: 90px;
+}
+
+.d11 {
+  margin-top: 60px;
+  margin-left: 100px;
+  float: left;
+}
+.d11 h2 {
+  font-size: 38px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  color: white;
+}
+.d11 p {
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 20px;
+}
+.d11 button {
+  margin-left: 8px;
+  margin-top: 20px;
+  width: 130px;
+  height: 30px;
+
+  border: 2px solid transparent;
+  border-image: linear-gradient(45deg, #027cf7, #ffffff);
+  border-image-slice: 1;
+  background: transparent;
+  color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: 1s;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.d11 button:hover {
+  transform: scale(1.1);
+
+  border: 2px solid transparent;
+  border-image: linear-gradient(45deg, #ffffff, #027cf7);
+  border-image-slice: 1;
+  background: transparent;
+}
+.d11 button:hover a {
+  background: linear-gradient(to right, #1e90ff, #ffffff);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+.content9 {
+  width: 100%;
+  height: 500px;
+  background: #2d3436;
+}
+.d12 {
+  float: left;
+  width: 300px;
+  height: 300px;
+  margin-left: 250px;
+  font-weight: bold;
+  text-align: right;
+}
+
+.d12 ul {
+  list-style: none;
+  background: linear-gradient(to right, #1e90ff, #ffffff);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+.d12 ul li {
+  margin: 20px;
+  font-size: 17px;
+
+  margin-left: 10px;
+}
+.d12 ul li i {
+  color: #027cf7;
+  text-align: left;
+}
+.d13 {
+  float: left;
+  width: 240px;
+  height: 320px;
+  background: url(img/perfume7.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  margin: 20px;
+  margin-top: -10px;
+  margin-left: -40px;
+  margin-right: 2px;
+}
+.d14 {
+  float: left;
+  width: 300px;
+  height: 300px;
+
+  font-weight: bold;
+}
+
+.d14 ul {
+  list-style: none;
+  background: linear-gradient(to right, #1e90ff, #ffffff);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+.d14 ul li {
+  margin: 20px;
+  font-size: 17px;
+  text-align: start;
+  margin-left: 10px;
+}
+.d14 ul li i {
+  color: #027cf7;
+  text-align: left;
+}
+
+.content10 {
+  width: 100%;
+  height: 300px;
+  background: url(img/design1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+.rgba4 {
+  width: 100%;
+  height: 300px;
+  background: rgba(0, 0, 0, 0.9);
+  padding: 60px;
+  position: relative;
+  margin-bottom: 100px;
+}
+.rgba4 div img {
+  width: 250px;
+  height: 260px;
+
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 900px;
+  margin: auto;
+  margin-top: -110px;
+}
+.rgba4 h5 {
+  font-size: 30px;
+}
+.rgba4 h2 {
+  font-size: 38px;
+  margin-top: 5px;
+  background: linear-gradient(to right, #1e90ff, #ffffff);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+.rgba4 p {
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.rgba4 button {
+  margin-left: 8px;
+  margin-top: 20px;
+  width: 130px;
+  height: 30px;
+
+  border: 2px solid transparent;
+  border-image: linear-gradient(45deg, #027cf7, #ffffff);
+  border-image-slice: 1;
+  background: transparent;
+  color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: 1s;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.rgba4 button:hover {
+  transform: scale(1.1);
+
+  border: 2px solid transparent;
+  border-image: linear-gradient(45deg, #ffffff, #027cf7);
+  border-image-slice: 1;
+  background: transparent;
+}
+.rgba4 button:hover a {
+  background: linear-gradient(to right, #1e90ff, #ffffff);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
+.content11 {
+  width: 100%;
+  height: 650px;
+  background: #2d3436;
+}
+
+.d15 {
+  float: left;
+  margin-left: 100px;
+}
+.d15 h3 {
+  margin-left: 100px;
+  font-size: 45px;
+  background: linear-gradient(to right, #1e90ff, #ffffff);
+  color: transparent;
+  -webkit-background-clip: text;
+  margin-top: 150px;
+}
+#dvlpmnt {
+  font-size: 45px;
+  background: linear-gradient(to right, #1e90ff, #ffffff);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+.d15 p {
+  font-size: 16px;
+  margin-left: 100px;
+  color: white;
+  margin-top: 9px;
+}
+
+.d15 h6 {
+  margin-left: 100px;
+  font-size: 16px;
+  background: linear-gradient(to right, #1e90ff, #ffffff);
+  color: transparent;
+  -webkit-background-clip: text;
+  margin-top: 20px;
+}
+
+.d16 {
+  float: left;
+}
+.d16 h2 {
+  text-align: left;
+  font-size: 40px;
+  background: linear-gradient(to right, #1e90ff, #ffffff);
+  color: transparent;
+  -webkit-background-clip: text;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  font-family: tahoma;
+}
+.d16 form {
+  width: 280px;
+  height: 450px;
+
+  margin-top: 150px;
+  margin-left: 250px;
+}
+.d16 input {
+  width: 250px;
+  margin-top: 50px;
+  border: 2px solid transparent;
+  border-image: linear-gradient(45deg, #027cf7, #ffffff);
+  border-image-slice: 1;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background: transparent;
+  color: white;
+  outline: none;
+  font-weight: bold;
+  font-family: "Edu NSW ACT Foundation", cursive;
+}
+
+.d16 button {
+  margin-left: 50px;
+  margin-top: 50px;
+  width: 130px;
+  height: 30px;
+
+  border: 2px solid transparent;
+  border-image: linear-gradient(45deg, #027cf7, #ffffff);
+  border-image-slice: 1;
+  background: transparent;
+  color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: 1s;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.d16 button:hover {
+  transform: scale(1.1);
+
+  border: 2px solid transparent;
+  border-image: linear-gradient(45deg, #ffffff, #027cf7);
+  border-image-slice: 1;
+  background: transparent;
+}
+.d16 button:hover a {
+  background: linear-gradient(to right, #1e90ff, #ffffff);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
+.d16 h6 {
+  font-size: 15px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-family: tahoma;
+}
+
+.d16 span {
+  margin-left: 5px;
+}
+
+.d16 p {
+  margin-left: 42px;
+  margin-top: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-family: tahoma;
+}
+
+.content12 {
+  width: 100%;
+  height: 550px;
+  background: #0e1011;
+}
+.d17 {
+  float: left;
+  margin-left: 170px;
+  margin-top: -50px;
+}
+.d17 h2 {
+  background: linear-gradient(to right, #1e90ff, #ffffff);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+.d17 p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+}
+.d17 a {
+  font-size: 20px;
+  background: linear-gradient(to right, #1e90ff, #ffffff);
+  color: transparent;
+  -webkit-background-clip: text;
+  margin: 15px;
+}
+.d18 {
+  float: left;
+  margin-left: 150px;
+  margin-top: -50px;
+}
+
+.d18 h2 {
+  background: linear-gradient(to right, #1e90ff, #ffffff);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+.d18 li {
+  list-style: none;
+  margin: 15px;
+  margin-left: -40px;
+  transition: 1s;
+}
+.d18 li:hover {
+  transform: translateX(10px);
+}
+
+.d18 li a {
+  text-decoration: none;
+
+  color: white;
+}
+
+.d19 {
+  float: left;
+  margin-left: 100px;
+  margin-top: -50px;
+}
+
+.d19 h2 {
+  background: linear-gradient(to right, #1e90ff, #ffffff);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+.d19 ul li {
+  list-style: none;
+  margin: 15px;
+  margin-left: -40px;
+  transition: 1s;
+}
+.d19 ul li:hover {
+  transform: translateX(10px);
+}
+
+.d19 ul li a {
+  text-decoration: none;
+  color: white;
+}
+.d20 {
+  float: left;
+  margin-left: 170px;
+  margin-top: -50px;
+}
+.d20 h2 {
+  background: linear-gradient(to right, #1e90ff, #ffffff);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+.d20 p {
+  color: #ffffff;
+  margin: 20px;
+  margin-left: 7px;
+  transition: 1s;
+}
+.d20 p:hover {
+  transform: translateX(10px);
+}
